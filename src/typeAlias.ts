@@ -33,4 +33,20 @@ const user2: User = {
   gender: 'male',
   height:"5'9''"
 }
-console.log(user2);
+// console.log(user2);
+
+type IsAdmin = true;
+const isadmin: IsAdmin = true;
+
+type Name = string;
+const myName: Name = 'meiad';
+
+
+//type alias in function
+
+type AddFunc = (num1: number, num2: number) => number;
+
+const add:AddFunc = function(num1, num2) {
+  return num1 + num2;
+}
+console.log(add(3,5));
