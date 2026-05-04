@@ -18,6 +18,19 @@ const addStudentToCollege = <T> (studentInfo:T) => {
   }
 }
 
+const student1 = {
+  id: 34,
+  name: 'sohan',
+  hasCar:true,
+}
+const student2 = {
+  id: 23,
+  name: 'shafinur',
+  hasCar:false,
+}
+console.log(addStudentToCollege(student2));
+
+
 
 
 // Generic Function
